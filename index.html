@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+        <title>Website</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+        rel="stylesheet">
+        <!-- Connect to Google Fonts domais -->
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://gstatic.com" crossorigin>
+        <!-- Import Poppins weights (Regular 400, Medium 500, Bold 700) -->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+
+            <a href="#home" class="logo">
+                Diego <span>von Borries</span>  
+            </a>
+
+            <i class="bx bx-menu" id="menu-icon"></i>
+
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#projects">Projects</a>
+                <a href="#resume"> Resume</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <!--Big CONTACT ME Button at the to right-->
+            <!--<button class="gradient-btn">Contact Me</button>-->
+        </header>
+
+        <section class="home", id="home">
+            <div class="home-content">
+                <h1>Welcome to my <span>world!</span></h1>
+                <!--<h3><span>Biomedical Engineer</span> by title</h3>
+                <h3><span>Data Scientist</span> by decision</h3>-->
+                <h3>Biomedical Engineer & Causal Learning Researcher</h3>
+                
+                <p> I always believed in the statement <i>Sapere Aude</i> presented by Immanuel Kant, a prestigious German
+                    philosopher from the Enlightenment, a statement intended to motivate people to always seek knowledge, being the direct
+                    translation 'dare to know'. As a researcher, curiosity must be the guide to think outside of the box and find new passions
+                    to dedicate time. Among my passions nowadays are providing machine learning algorithms with causal learning in order to provide 
+                    more accurate answers for a medical decision-making; blending reinforcement learning with survival analysis techniques 
+                    to determine prognostic factors; causal networks applied to survival data, among others.
+                    
+                </p>
+                
+                <!--------------- Links ------------------------------------>
+                    <div class="social-icons">
+                        <a onclick="window.open('https://www.linkedin.com/in/diegovbf/', '_blank')">
+                            <i class="bx 
+                            bxl-linkedin-square"></i>
+                        </a>
+                        <a onclick="window.open('https://github.com/vonborriesdiego', '_blank')">
+                            <i class="bx 
+                            bxl-github"></i>
+                        </a>
+                        
+                        <a onclick="window.open('https://www.youtube.com/@NonNormalStats', '_blank')">
+                            <i class="bx 
+                            bxl-youtube"></i>
+                        </a>
+                    </div>
+                <!--------------- Hire and Contact Button ------------------------------------>    
+                    <div class="btn-group">
+                        <!--HIRE Button-->
+                        <!--<a href="#" class="btn">Hire</a>-->
+                        <a href="#contact" class="btn">Contact</a>
+                    </div>
+            </div>
+            <div class="home-img">
+                <img src="/pictures/IMG_1933.jpg" alt="">
+            </div>
+
+        </section>
+
+        <section class="about" id="about">
+           <!--- <div class="about-img">
+                <img src="IMG_B&W.jpg" alt="">
+            </div>-->
+            <div class="about-content">
+                <h2>About <span>Me</span></h2>
+                <p>I'm Diego Andrés von Borries Flores. I was born in Bolivia, but I have a strong connection with two countries that I love, Mexico and Brazil, 
+                the reason I'll explain you below.</br>  
+                </br>    
+                I'm a biomedical engineer who got passionated about the field of statistics and its junction with computer science, 
+                merging into a fascinating field that we know as <i> data science</i>. My journey took place back in 2015 when my path into the engineering world begun. 
+                I was accepted to be part of the biomedical engineering program at <i>Universidad Politécnica de Pachuca</i>, 
+                located in the city of Pachuca the capital of Hidalgo, one of the most relevant states from Mexico. 
+                The reason why I chose biomedical engineering was because I considered; and still considering, biomedical engineering as a game changer, 
+                a major that blends the field of engineering with the field of medicine, providing the professionals with a wide range of knowledge from multiple domains
+                expanding the opportinity to act in multiple areas.
+                </br>
+                </br>
+
+                Back in my years as an undergraduate student, from very early on my career I could experience firsthand the duties of a biomedical engineer by taking three different internships. The first internship consisted of
+                200 hrs of service supporting the maintenance division of a nephrology clinic called <i>Centro Integral de Nefrología </i> located in Pachuca, there I gained knowledge on the functionality of hemodialysis machine and the proper way to provide preventive and corrective maintenance.</br>
+                </br>
+                <!--- Hidden part --->
+                <span id="more-text" style="display:none;">
+                The second internship was at <i>Hospital de General de Zona Médico Familiar Nº1</i>, a public hospital located also in Pachuca. It was designed to provide biomedical engineering majors
+                a broader experience as engineer by not just focusing on equipments of a single specific area, but to work in a wide variety of medical equipment going from a 
+                simple vital signs monitor to an X-ray machine and supporting the tomography experts with the maintenance sessions. This was a longer internship of 600 hrs, enough time to gained 
+                knowledge of the different devices as well as the multiple areas involving the hospital.</br>
+                </br>
+
+                As a last internship, I conducted a project based on providing corrective maintenance services to seven obstetric ultrasound located at 
+                <i>Hospital General de Zona Nº47</i> from Mexico city. The project was developed as part of the <i>Service-Learning capstone</i> program, a culminating 
+                undergraduate project required for the completion of the biomedical engineering degree. This type of graduation offers the students the possibility to apply their 
+                academic knowledge to solve real-world problems and fulfill a specific need for a community partner. This was the longest service I offered as a biomedical 
+                engineer providing corrective maintenance, the program requested to fulfill a 900 hrs of service in order to conclude the graduation. Once I fulfill the requirement
+                and noticed that my work was benefical for the community, I felt some relief knowing that my profession had the possibility to contribute 
+                with the wealth of the society, but I also felt that dedicating my life to provide maintenance service wasn't enough in order to make a huge impact on society.
+                </br>
+                </br>
+                    
+                During this meditation moments I had after accomplishing with my biomedical degree, I realized that in order to contribute with the wealth of the people and with the medical
+                community I had to go deeper and gather more knowledge and expertise in different fields. I also noticed that during my formation I never felt that much excited while applying 
+                my knowledge to provide maintenance services, but I had a lot of curiosity about software and the junction between software and hardware that allowed the development of robotic projects. 
+                In my last year as a biomedical engineer major I took many disciplines related with programming languages, coding, and statistics. It was at this exact moment that my journey into 
+                statistics and data science begun.
+
+                </br>
+                </br>
+                    
+                <b style="font-size: 40px;">My Path into </b><span style="font-size: 40px;">Data Science</span>
+                </br>
+                </br>
+
+                After concluding my degree in 2019, I kept wondering how should I proceed in order to gain more knowledge. I was convinced that I must 
+                pursue a master degree, but questions like what type of master program, in which field, and must importantly; where, kept
+                bumping into my head. In the meanwhile, I decided to take what Coursera called a 'Data Science Specialization' offered by IBM and 
+                that was the turning point of my career. It was a specialization that didn't go deeper with the analysis and tools, but it made me realize that 
+                data science was the right path to follow.
+                </br>
+                </br>  
+                In 2022 I was accepted to be part of a research internship that took place at the biomechatronic lab from the polytechnique school at <i> Universidade de São Paulo</i>. 
+                It was my first experience related with research and science. I supported a team of experts and doctoral students conduct a series of investigations
+                based on sleep deprivation, the research I joined was based on measuring the reaction time of patients with sleep deprivation in order to study how lack of sleep 
+                potentially affect the motor responses of the patients. This research was not inmersed to deep into data science, but to me was fascinating have collaborated
+                in a high quality research. My dutties relied on supporting with the development of the user interface application used during the sessions for the patients in order 
+                to accomplish their tasks, it was developed in C++, also I supperted the team with the collection of biological signals.
+         
+                </br>
+                </br>
+
+                During my period as internship researcher for the biomechatronic lab, I was selected to be part of a prestigious extension group called
+                <a href="https://www.poli.usp.br/en/noticias/grupos-de-extensao/skyrats/"> Skyrats </a>, an extension group (mostly for undergrads), focused to research and develop autonomous intelligent drones. A fantastic extension group
+                where I learned a lot about hardware focused to enhence the performace of the drone, the mechanics involved behind these fascinating devices, as well as all the software
+                development process in order for the drone to accomplish different computer vision taks. I was accepted to be part of the software team, there I could improve my knowledge in 
+                Python, C++, and learned about Robotic Operating System or ROS. Additionally, I had the chance participate together with members of the team in the <i>ABII Challenge</i>, a national technological competition which took place in Joinville - Santa Catarina,
+                where we compited on the drone category and got the first place. I'm still being a memeber of the group, a veteran one as the new ones call us. It's a fantastic group of talented
+                student involving multiples areas going from different engineering majors to major students outside engineering like business administration, industry design, marketing, etc. They accept anyone who has
+                the curiosity to learn about these fascinating devices and contribute with the team.
+            
+
+                </br>
+                </br>
+
+                A year after (2023), I took my second research internship where I finally dived deeper into the world of statistics and data science. This internship
+                was conducted at the Signal Processing Lab from the electronic and computer department from <i>Escuela de Engenharia de São Carlos</i>. There it could work with
+                Bayesian inference and causal network related with the detection of the factors/causes that triggers the three different types of sleep apneas. It was a fantastic experience
+                where I could shared work with relevant researchers and professor from this prestigious institution. 
+                
+                </br>
+                </br>
+
+                Thanks to this internship and my contributions I was accepted to the master program in public health from the medical faculty <i>Faculdade de Medicina de Ribeirão Preto - Universidade de São Paulo</i> in 2025. Since then, I've been applying 
+                my knoweledge gathered thorugh the years to contribute with state of the art data analysis techniques to the study of cancer. After a challenging procedure
+                applying survival analysis to analyze cancer data provided by the National Institute of Cancer (INCA) from Brazil using semiparametric transformation methods with a Bayesian approach, on Agust 14th I presented my results 
+                to a committe of respected professors as part of the Qualification Exam requested by the program, and as a result of the quality of my findings and the impact
+                of the research I was selected to continue my research through a direct-entry doctoral program. After all I've been through, this moment made me realize that I'm 
+                in the right way to accomplish my goal on contributing with the society. I accepted the invitantion and right now I'm fulfilling all the requirements to become a 
+                doctoral student. 
+
+                </br>
+                </br>
+
+                This have been my journey until the day I wrote this, a crazy and internation journey that motivates me to keep growing as a professional and as a human being. 
+                Thanks for taking the time to read all my professional path that thrills me any time I have the chance to share it with someone!
+                    
+
+                    </br>
+                    </span>
+                </p>
+                <a onclick="toggleText()" id="read-more-text" class="btn">Read More</a>
+            </div>
+        </section>
+
+        <section class="services" id="services">
+            <h2 class="heading">Services</h2>
+
+            <div class="services-container">
+                <div class="service-box">
+                    <div class="service-info">
+                        <i class="bx bx-search-alt"></i>
+                        <h4> Statistical Analysis & Hypothesis Testing</h4>
+                        <p>Application of rigorous descriptive and inferential statistics methods conducted in Python to uncover meaningful patterns 
+                        hidden in complex datasets, including exploratory data analysis to understand distributions, correlations, 
+                        and outliers, as well as formal hypothesis testing to validate assumptions and support data-driven decision.</p>
+
+                    </div>
+                </div>
+
+                <div class="service-box">
+                    <div class="service-info">
+                        <i class="bx bxs-brain"></i>
+                        <h4> Machine Learning</h4>
+                        <p>Implementation of machine learning techniques, such as regression, classification, and ensemble methods 
+                        (e.g., random forests, gradient boosting), and neural networks to produce robust predictive models capable 
+                        of handling complex, high-dimensional datasets and supporting data-driven forecasting and decision-making.</p>
+                            
+                    </div>
+                </div>
+
+                <div class="service-box">
+                    <div class="service-info">
+                        <i class="bx bx-line-chart"></i>
+                        <h4> Bayesian Modeling & Biostatistics </h4>
+                        <p>Application of Bayesian methodologies to classic statistical approaches in order to enhance the quality of the
+                            results. Bayesian framework has demonstrated its capabilities to success in scenarios where classical approaches 
+                            provide unreliable results due to their strict assumptions or the lack of large datasets. I recently presented a study blending Bayesian framework 
+                            with semiparametric transformation models to determine prognostic factors in cancer patients.</p>
+                            
+                    </div>
+                </div>
+                <div class="service-box">
+                    <div class="service-info">
+                        <i class="bx bx-filter-alt"></i>
+                        <h4> Data Engineering & Pipelines </h4>
+                        <p>Design and implementation of ETL pipelines for the extraction, cleaning, and transformation of raw, unstructured 
+                            datasets, ensuring data quality and consistency to support downstream statistical analysis and machine learning 
+                            workflows.</p>
+                            
+                    </div>
+                </div>
+                <div class="service-box">
+                    <div class="service-info">
+                        <i class="bx bxs-dashboard"></i>
+                        <h4> Dashboards & Data Visualization </h4>
+                        <p>Development of interactive dashboards and visual reporting tools using Plotly and Power BI, translating 
+                            complex statistical and predictive model outputs into clear, accessible visuals that support monitoring, 
+                            exploration, and data-driven decision-making for technical and non-technical stakeholders alike.</p>
+                            
+                    </div>
+                </div>
+                <div class="service-box">
+                    <div class="service-info">
+                        <i class="bx bxs-report"></i>
+                        <h4> Consulting & Technical Reporting </h4>
+                        <p>Translation of statistical and machine learning results into clear technical reports and actionable 
+                            recommendations for research or business decision-making, along with private courses and mentoring in 
+                            statistics, Python, and data science for individuals and teams looking to build their analytical skills.</p>
+                            
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects" id="projects">
+
+            <h2 class="heading">Projects</h2>
+
+            <div class="projects-box">
+
+                <div class="project-card">
+                    <img src="/pictures/TraceP.png" alt="">
+
+                    <h3>Semiparametric Transformation Models in Survival Data Analysis in Presence of Censored Data and Covariates</h3>
+
+                    <p>The project focused on the implementation of a hierarchical Bayesian framework to three semiparametric transformation 
+                        models, the analysis was based on a dataset of 862 cancer patients provided by the National Cancer Institute of Cancer 
+                        (INCA) from Rio de Janeiro, Brazil. The purpose of the analysis was to determine prognostic factors that increased the
+                        risk to have of cancer.
+                    </p>
+                    <div class="btn" onclick="window.open('https://github.com/vonborriesdiego/Bayesian-Semiparametric-Survival-Models-for-Cancer-Prognostic-Factor-Analysis', '_blank')">Review Project</div>
+                    <!--<a href="https://github.com/vonborriesdiego" class="btn">Review Pro</a>-->
+                </div>
+
+                <div class="project-card">
+                    <img src="/pictures/Munincipal.png" alt="">
+
+                    <h3>Traffic Accidents and Impacts on Public Health: An analysis of data from the state of São Paulo, Brazil, from 2019 to 2024,
+                        under a Bayesian approach
+                    </h3>
+
+                    <p>Analysis conducted under a Bayesian approach applied to a traffic accident dataset of 645 minincipalities by year from the state of 
+                        São Paulo, Brazil. The aim of this analysis was to find relevant insights from the dataset in order to promote the severities a trafic 
+                        accident could reach, as well as the age group frequently involved in these situations.
+                    </p>
+                    <div class="btn" onclick="window.open('https://github.com/vonborriesdiego/Traffic-Accidents-and-Impacts-on-Public-Health-An-analysis-of-the-state-of-S-o-Paulo-2019---2024-/blob/main/README.md', '_blank')">Review Project</div>
+                </div>
+
+                <div class="project-card">
+                    <img src="/pictures/CoxPH.png" alt="">
+
+                    <h3>Outcomes and Mortality Predictors on Pediatric Candidemia: A single-center experience from Brazil.</h3>
+
+                    <p>Conducted an analysis applying survival analysis techniques, such as the proportional hazards regression model proposed by Cox 
+                        to analyze 102 pediatric patients, under the age of 18, that had experienced episodes of candidemia fungos. 
+                        The analysis intended to describe and highlight the factors that increased the risk of have from candidemia.
+                    </p>
+                    <div class="btn" onclick="window.open('https://github.com/vonborriesdiego/Cox-Proportional-Hazards-Model-for-Prognostic-Factor-Identification-in-Pediatric-Candidemia','_blank')">
+                        Review Project</div>
+                </div>
+
+                <div class="project-card">
+                    <img src="/pictures/logg.png    " alt="">
+
+                    <h3>Bayesian Logistic Regression: A comparative analysis between the classic logistic regression model with a Bayesian logistic 
+                        regression model
+                    </h3>
+
+                    <p>The present analysis focused to highlight the differences between the two approaches and determine the advantages of the Bayesian 
+                        approach to enhance the analysis, resulting in more reliable outcomes. To conduct this analysis, the candidemia dataset was proposed, 
+                        the analysis revealed the strengths of the Bayesian approach, producing relevant findings while the classical approach struggle to provide
+                        feasibles outcomes, presenting wide confidence intervals.
+                    </p>
+                    <div class="btn" onclick="window.open('https://github.com/vonborriesdiego/Accuracy-Comparison-Classic-and-Bayesian-logistic-regression-model', '_blank')">
+                        Review Project</div>
+                </div>
+                
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2 class="heading">Contact <span>Me</span></h2>
+            
+            <form action="https://formsubmit.co/nonnormal.stat@gmail.com" method="POST">
+                <div class="input-group">
+                    <div class="input-box">
+                        <input type="text" name="Full Name" placeholder="Full Name">
+                        <input type="email" name="Email" placeholder="Email">
+                    </div>
+                    <div class="input-box">
+                        <input type="number" name="Phone Number" placeholder="Phone Number">
+                        <input type="text" name="Subject" placeholder="Subject">
+                    </div>
+                </div>
+                <div class="input-group-2">
+                    <textarea name="Message" id="" placeholder="Your Message" cols="30" rows="10"></textarea>
+                    <input type="submit" value="Send Message" class="btn">
+                </div>
+            </form>
+        </section>
+        
+        <div class="download-cv" id="resume">
+            <a href="/CV/Resume (Simplified).pdf" download class="btn">Download Resume - English</a>
+            <a href="/CV/CV - Portuguese(Simplified).pdf" download class="btn">Download Resume - Portuguese</a>
+        </div>
+
+        <footer class="footer">
+            <div class="social-icons">
+                <a onclick="window.open('https://www.linkedin.com/in/diegovbf/', '_blank')">
+                    <i class="bx bxl-linkedin-square"></i>
+                </a>
+
+                <a onclick="window.open('https://github.com/vonborriesdiego', '_blank')">
+                    <i class="bx bxl-github"></i>
+                </a>
+                <a onclick="window.open('https://www.youtube.com/@NonNormalStats', '_blank')">
+                    <i class="bx bxl-youtube"></i>
+                </a>
+            </div>
+            <ul class="list">
+                <!--FAQ-->
+                <!--<li>
+                    <a href="#">FAQ</a>
+                </li>-->
+
+                <li>
+                    <a href="#services">Services</a>
+                </li>
+
+                <li>
+                    <a href="#about">About Me</a>
+                </li>
+
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+
+            <p class="copyright">
+                ® Diego von Borries | All Rights Reserved
+            </p>
+        </footer>
+
+        <script src="web_script.js"></script>
+    </body>
+    </html>
